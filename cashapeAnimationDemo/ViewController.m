@@ -84,7 +84,7 @@
     layer.path = [self path1] .CGPath;
     
     
-  
+  https://github.com/guang-sun/cashaplayerTest.git
     
     [self.view.layer addSublayer:layer];
     

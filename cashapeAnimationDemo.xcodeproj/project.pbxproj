@@ -15,6 +15,7 @@
 		8463D8B51F6BA7C000F3A55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8463D8B31F6BA7C000F3A55C /* LaunchScreen.storyboard */; };
 		8463D8BF1F6BB28700F3A55C /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463D8BD1F6BB28700F3A55C /* baseViewController.m */; };
 		8463D8C01F6BB28700F3A55C /* baseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8463D8BE1F6BB28700F3A55C /* baseViewController.xib */; };
+		8463D8C31F6F78BC00F3A55C /* test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463D8C21F6F78BC00F3A55C /* test2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		8463D8BC1F6BB28700F3A55C /* baseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
 		8463D8BD1F6BB28700F3A55C /* baseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
 		8463D8BE1F6BB28700F3A55C /* baseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = baseViewController.xib; sourceTree = "<group>"; };
+		8463D8C11F6F78BC00F3A55C /* test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2ViewController.h; sourceTree = "<group>"; };
+		8463D8C21F6F78BC00F3A55C /* test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				8463D8BC1F6BB28700F3A55C /* baseViewController.h */,
 				8463D8BD1F6BB28700F3A55C /* baseViewController.m */,
 				8463D8BE1F6BB28700F3A55C /* baseViewController.xib */,
+				8463D8C11F6F78BC00F3A55C /* test2ViewController.h */,
+				8463D8C21F6F78BC00F3A55C /* test2ViewController.m */,
 				8463D8AE1F6BA7C000F3A55C /* Main.storyboard */,
 				8463D8B11F6BA7C000F3A55C /* Assets.xcassets */,
 				8463D8B31F6BA7C000F3A55C /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 			files = (
 				8463D8AD1F6BA7C000F3A55C /* ViewController.m in Sources */,
 				8463D8BF1F6BB28700F3A55C /* baseViewController.m in Sources */,
+				8463D8C31F6F78BC00F3A55C /* test2ViewController.m in Sources */,
 				8463D8AA1F6BA7C000F3A55C /* AppDelegate.m in Sources */,
 				8463D8A71F6BA7C000F3A55C /* main.m in Sources */,
 			);

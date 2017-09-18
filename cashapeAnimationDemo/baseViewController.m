@@ -117,7 +117,6 @@
 //    
 //    //    [path addLineToPoint:CGPointMake(10, 10)];
 //    [path addArcWithCenter:CGPointMake(120, 0) radius:30 startAngle:0 endAngle:M_PI clockwise:YES];
-    //    [path addCurveToPoint:<#(CGPoint)#> controlPoint1:<#(CGPoint)#> controlPoint2:<#(CGPoint)#>]
     
     return path ;
 }
