@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8429A2B4212C22D600110903 /* test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429A2B3212C22D600110903 /* test1ViewController.m */; };
 		8463D8A71F6BA7C000F3A55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463D8A61F6BA7C000F3A55C /* main.m */; };
 		8463D8AA1F6BA7C000F3A55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463D8A91F6BA7C000F3A55C /* AppDelegate.m */; };
 		8463D8AD1F6BA7C000F3A55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463D8AC1F6BA7C000F3A55C /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8429A2B2212C22D600110903 /* test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1ViewController.h; sourceTree = "<group>"; };
+		8429A2B3212C22D600110903 /* test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1ViewController.m; sourceTree = "<group>"; };
 		8463D8A21F6BA7C000F3A55C /* cashapeAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashapeAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463D8A61F6BA7C000F3A55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8463D8A81F6BA7C000F3A55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8429A2B1212C22B700110903 /* recouse */ = {
+			isa = PBXGroup;
+			children = (
+				8429A2B2212C22D600110903 /* test1ViewController.h */,
+				8429A2B3212C22D600110903 /* test1ViewController.m */,
+			);
+			path = recouse;
+			sourceTree = "<group>";
+		};
 		8463D8991F6BA7C000F3A55C = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,7 @@
 		8463D8A41F6BA7C000F3A55C /* cashapeAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8429A2B1212C22B700110903 /* recouse */,
 				8463D8A81F6BA7C000F3A55C /* AppDelegate.h */,
 				8463D8A91F6BA7C000F3A55C /* AppDelegate.m */,
 				8463D8AB1F6BA7C000F3A55C /* ViewController.h */,
@@ -164,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8429A2B4212C22D600110903 /* test1ViewController.m in Sources */,
 				8463D8AD1F6BA7C000F3A55C /* ViewController.m in Sources */,
 				8463D8BF1F6BB28700F3A55C /* baseViewController.m in Sources */,
 				8463D8C31F6F78BC00F3A55C /* test2ViewController.m in Sources */,
