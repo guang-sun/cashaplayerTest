@@ -112,7 +112,7 @@
     lineView.backgroundColor = [UIColor redColor];
     
     [self.view addSubview:lineView];
-    UIView *animView = [[UIView alloc]initWithFrame:CGRectMake(50, 155, 10, 10)];
+    UIView *animView = [[UIView alloc]initWithFrame:CGRectMake(50, 150, 10, 10)];
     animView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:animView];
     

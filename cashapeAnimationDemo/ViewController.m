@@ -21,6 +21,7 @@
     
     [self test2];
     
+    [self test3];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -37,8 +38,6 @@
 //    UIBezierPath   *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 100, 100)];
     
     //画 圆弧 3点钟方向是开始 顺时针  clockwise这个属性设置是否顺时针，若为YES，则顺时针绘制。
-    
-
     
     UIBezierPath   *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(100, 100) radius:30.0f startAngle:0 endAngle:M_PI_2 * 3 clockwise:YES];
 
@@ -60,7 +59,7 @@
     layer.path = path .CGPath;
     
     [self.view.layer addSublayer:layer];
-
+    
 }
 
 
@@ -107,6 +106,39 @@
 
     return path ;
 }
+
+- (void)test3 {
+    
+    
+    CAShapeLayer   *layer = [[CAShapeLayer alloc]init];
+    layer.fillColor = [UIColor redColor].CGColor;
+    layer.strokeColor = [UIColor blueColor].CGColor;
+    layer.lineCap = kCALineJoinBevel;
+    
+    // 拐角
+    layer.lineJoin = kCALineJoinMiter;
+    
+    layer.lineWidth = 4;
+    layer.frame = CGRectMake(0, 300, 120, 111);
+    layer.backgroundColor = [UIColor yellowColor].CGColor;
+    layer.path = [self path3] .CGPath;
+    
+    [self.view.layer addSublayer:layer];
+    
+}
+
+- (UIBezierPath *)path3 {
+    
+    UIBezierPath  *path = [UIBezierPath  bezierPath];
+    [path moveToPoint:CGPointMake(207, 300)];
+    [path addCurveToPoint:CGPointMake(207, 400) controlPoint1:CGPointMake(307, 250) controlPoint2:CGPointMake(307, 350)];
+//    [path addQuadCurveToPoint:CGPointMake(207, 400) controlPoint:CGPointMake(357, 200)];
+//    [path addQuadCurveToPoint:CGPointMake(207, 300) controlPoint:CGPointMake(57, 200)];
+    [path addCurveToPoint:CGPointMake(207, 300) controlPoint1:CGPointMake(107, 350) controlPoint2:CGPointMake(107, 250)];
+
+    return path ;
+}
+
 
 ///**
 // * 如果当前有正在绘制的子路径, 该方法则会隐式的结束当前路径,
