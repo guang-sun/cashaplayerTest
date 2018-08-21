@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = 'cashaplayerTest'
+s.name         = 'cashapelayerDemo'
 s.version      = '1.0.0'
 s.summary      = '测试使用'
 s.homepage     = 'hhttps://github.com/guang-sun'
