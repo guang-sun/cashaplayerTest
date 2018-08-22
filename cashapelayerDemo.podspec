@@ -6,7 +6,7 @@ s.homepage     = 'https://github.com/guang-sun'
 s.license      = 'MIT'
 s.authors      = {'DG' => ''}
 s.platform     = :ios, '6.0'
-s.source       = {:git => 'https://github.com/guang-sun/cashaplayerTest.git', :tag => '1.0.0'}
+s.source       = {:git => 'https://github.com/guang-sun/cashaplayerTest.git', :tag => s.version }
 s.source_files = "test"
 
 s.requires_arc = true
